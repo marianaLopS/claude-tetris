@@ -78,6 +78,14 @@ jobs:
             `gh issue edit ${{ github.event.issue.number }} --add-label "label1,label2,..."`
 
             ## Tarea 2 - Diagnostico
+            El comentario debe estar escrito en Markdown valido de GitHub (GFM), de
+            modo que GitHub lo renderice correctamente: encabezados con `##`, listas
+            con `-`, checkboxes con `- [ ]`, rutas/funciones e identificadores entre
+            backticks y bloques de codigo con triple backtick indicando el lenguaje
+            (```js). No uses HTML crudo salvo el marcador oculto, ni escapes los
+            backticks. Respeta las lineas en blanco entre secciones para que los
+            bloques se separen bien.
+
             Escribe un comentario con EXACTAMENTE esta estructura, empezando por el
             marcador oculto en la primera linea:
 
